@@ -150,7 +150,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    background-color:var(--Green);
+    background-color:var(--Yellow);
 }
 .footer{
     display: flex;
@@ -158,7 +158,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 15px;
-    background-color: slateblue;
+    background-color: red;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

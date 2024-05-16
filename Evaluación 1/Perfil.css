@@ -1,0 +1,37 @@
+:root{
+    /* Primarios */
+    --Cyan:hsl(179, 62%, 43%);
+    --Cyan2:rgb(50, 209, 206);
+
+    /* Neutral */
+    --LightGray: hsl(204, 43%, 93%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.perfil{
+    background-color: var(--Cyan2);
+    border: 2px solid var(--Cyan2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20%;
+}
+img{
+    border-radius: 20%;
+}
+h3 {
+    margin: 10px 0;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
